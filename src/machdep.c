@@ -103,7 +103,8 @@ md_get_file_id(char *fname)
     if (stat(fname, &sbuf)) {
 	return -1;
     }
-    return ((int) sbuf.st_ino);
+    /* return ((int) sbuf.st_ino); */
+    return 1;
 }
 
 /* md_link_count():

@@ -28,7 +28,7 @@
 #include "score.h"
 
 short write_failed = 0;
-char *save_file = "";
+char *save_file = "rogue.save";
 
 extern boolean detect_monster;
 extern short cur_level, max_level;
